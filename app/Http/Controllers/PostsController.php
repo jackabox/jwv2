@@ -17,8 +17,8 @@ class PostsController extends Controller
 
     public function show($year, $slug, Posts $posts)
     {
-//        return view('posts.show', [
-//            'post' => $posts->find($year, $slug),
-//        ]);
+        return view('posts.show', [
+            'post' => $posts->find($year, $slug),
+        ]);
     }
 }
