@@ -17,8 +17,8 @@
     </style>
 </head>
 <body>
-    @yield('content')
-
+    {{ $slot }}
+    
     @if(app()->environment('production'))
         @include('layouts.partials.analytics')
     @endif

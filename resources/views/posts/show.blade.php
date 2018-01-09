@@ -1,6 +1,7 @@
-@extends('layouts.app')
+@component('layouts.app', [
+    'title' => 'Posts'
+])
 
-@section('content')
     <h1>{{ $post->title }}</h1>
 
     @if($post->subtitle)
@@ -8,4 +9,4 @@
     @endif
 
     {!! $post->content !!}
-@endsection
+@endcomponent
