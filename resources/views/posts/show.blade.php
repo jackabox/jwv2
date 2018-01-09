@@ -1,12 +1,18 @@
-@extends('layouts.posts')
+@component('layouts.app', [
+    'title' => 'Posts'
+])
 
-@section('content')
-    <h1>{{ $post->title }}</h1>
+    <div class="container">
+        <header class="blog__header">
+            <h1>{{ $post->title }}</h1>
 
-    @if($post->subtitle)
-        <h2 class="subtitle">{{ $post->subtitle }}</h2>
-    @endif
+            @if($post->subtitle)
+                <h2 class="subtitle">{{ $post->subtitle }}</h2>
+            @endif
+        </header>
 
-    {{ $post->content }}
-
-@endsection
+        <article class="blog__article">
+            {!! $post->content !!}
+        </article>
+    </div>
+@endcomponent
