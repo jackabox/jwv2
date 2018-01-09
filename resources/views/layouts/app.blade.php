@@ -18,7 +18,7 @@
 </head>
 <body>
     {{ $slot }}
-    
+
     @if(app()->environment('production'))
         @include('layouts.partials.analytics')
     @endif
