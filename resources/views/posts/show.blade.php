@@ -2,7 +2,9 @@
     'title' => 'Posts'
 ])
 
-    <div class="container">
+    <div class="container inner-container">
+        <a href="{{ url('posts') }}" class="blog__back">&laquo; Back To Blog</a>
+
         <header class="blog__header">
             <h1>{{ $post->title }}</h1>
 

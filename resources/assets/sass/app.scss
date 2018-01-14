@@ -1,6 +1,11 @@
+@import 'vendor/reset',
+        'vendor/prism';
 
 @import 'core/functions',
         'core/variables',
         'core/placeholders';
 
 @import 'components/buttons';
+
+@import 'layout/typography',
+        'layout/grid';

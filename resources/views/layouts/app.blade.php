@@ -7,12 +7,15 @@
     <meta name="author" content="Jack Whiting">
     <title>{{ isset($title) ? ($title . ' — Jack Whiting') : 'Jack Whiting' }}</title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com/">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Serif">
+    <link rel="preconnect" href="https://use.typekit.net/">
+    <link rel="stylesheet" href="https://use.typekit.net/wfq3itw.css">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <script async src="{{ asset('js/app.js') }}"></script>
 
     <style>
         body, * {
-            font-family: 'PT Serif', serif;
+            font-family: 'acumin-pro', serif;
         }
     </style>
 </head>
