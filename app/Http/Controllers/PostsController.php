@@ -8,11 +8,9 @@ class PostsController extends Controller
 {
     public function index(Posts $posts)
     {
-        dd($posts->all());
-
-//        return view('posts.index', [
-//            'paginator' => $posts->paginate(20),
-//        ]);
+        return view('posts.all', [
+            'paginator' => $posts->paginate(20),
+        ]);
     }
 
     public function show($year, $slug, Posts $posts)

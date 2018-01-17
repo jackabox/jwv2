@@ -1,0 +1,123 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 300;
+  color: color('header');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $font-family-header;
+  margin: 0;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 3rem;
+  padding-top: 3rem;
+}
+
+h2, h3 {
+  padding-top: 2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+p,
+ul,
+ol {
+  font-size: 1.1rem;
+  line-height: 2;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  color: #444;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 2.1rem;
+}
+
+ol {
+  list-style: decimal;
+  padding-left: 2.1rem;
+}
+
+ul.unlisted {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+p code {
+  background: #f5f2f0;
+  padding: .3rem;
+  font-size: .9rem;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+pre code {
+  font-size: .9rem;
+}
+
+small {
+  font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: color(link);
+  transition: .3s all ease-in-out;
+}
+
+a:hover,
+a:focus {
+  color: darken(color(link), 15%);
+}
+
+b, strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
+
+sup {
+  vertical-align: super;
+  font-size: 1.2rem;
+  color: red;
+}
+
+.text-center {
+  text-align: center;
+}
+
+blockquote {
+  background-color: #fafcfc;
+  border-left-width: 8px;
+  border-color: #9babb4;
+  color: #70818a;
+  padding: 1.5rem;
+  margin-top: .75rem;
+  margin-bottom: .75rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}

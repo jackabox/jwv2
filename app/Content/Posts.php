@@ -8,16 +8,16 @@ class Posts extends Provider
 {
     public function all()
     {
-       return $this->cache('posts.all', function () {
+    //    return $this->cache('posts.all', function () {
             return $this->gather();
-       });
+    //    });
     }
 
     public function paginate($perPage = 15, $pageName = 'page', $page = null)
     {
-        return $this->cache('posts.paginate.'.request('page', 1), function () use ($perPage, $pageName, $page) {
+        // return $this->cache('posts.paginate.'.request('page', 1), function () use ($perPage, $pageName, $page) {
             return $this->all()->simplePaginate($perPage, $pageName, $page);
-        });
+        // });
     }
 
     public function find($year, $slug)
@@ -31,7 +31,7 @@ class Posts extends Provider
 
     public function feed()
     {
-        return $this->cache('posts.feed', function () {
+        // return $this->cache('posts.feed', function () {
             return $this->all()->map(function ($post) {
                 return [
                     'id' => $post->url,
@@ -42,7 +42,7 @@ class Posts extends Provider
                     'author' => 'Jack Whiting',
                 ];
             });
-        });
+        // });
     }
 
     private function gather()
@@ -63,8 +63,9 @@ class Posts extends Provider
                     'url' => route('posts.show', [$date->format('Y'), $slug]),
                     'title' => $document->title,
                     'subtitle' => $document->subtitle,
+                    'tags'    => $document->tags,
                     'content' => markdown($document->body()),
-                    'summary' => markdown($document->summary ?? $document->body()),
+                    'summary' => markdown($document->excerpt ?? $document->body()),
                 ];
             })
             ->sortByDesc('date');
