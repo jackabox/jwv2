@@ -13,7 +13,7 @@
             @if ($post->tags)
                 <p>
                 @foreach ($post->tags as $tag)
-                    <span style="border-radius: 3px; padding: 3px 8px; font-size: 14px; background: #e7e7e7; margin-right: 5px">{{ $tag }}</span>
+                    <span style="border-radius: 3px; padding: 3px 8px; font-size: 14px; background: #f5f2f0; opacity: 0.8; margin-right: 5px">{{ $tag }}</span>
                 @endforeach
                 </p>
             @endif

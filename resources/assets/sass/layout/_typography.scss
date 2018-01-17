@@ -106,9 +106,8 @@ sup {
 }
 
 blockquote {
-  background-color: #fafcfc;
-  border-left-width: 8px;
-  border-color: #9babb4;
+  background-color: #f5f2f0;
+  border-left: 8px solid darken(#f5f2f0, 10%);
   color: #70818a;
   padding: 1.5rem;
   margin-top: .75rem;

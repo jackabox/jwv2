@@ -8,9 +8,9 @@ class Posts extends Provider
 {
     public function all()
     {
-    //    return $this->cache('posts.all', function () {
+       return $this->cache('posts.all', function () {
             return $this->gather();
-    //    });
+       });
     }
 
     public function paginate($perPage = 15, $pageName = 'page', $page = null)
