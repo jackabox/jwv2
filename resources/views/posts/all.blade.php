@@ -3,6 +3,8 @@
 ])
 
     <div class="container">
+        <h1>Posts</h1>
+        
         @foreach ($paginator as $post)
             <h2>
                 <a href="{{ $post->url }}">{{ $post->title }}</a>
