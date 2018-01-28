@@ -15,7 +15,6 @@
 
     <style>
         body, * {
-            font-family: 'acumin-pro', serif;
         }
     </style>
 </head>

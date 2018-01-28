@@ -1,7 +1,8 @@
 @import 'vendor/reset',
         'vendor/prism';
 
-@import 'core/functions',
+@import 'core/core',
+        'core/functions',
         'core/variables',
         'core/placeholders';
 

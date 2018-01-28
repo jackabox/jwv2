@@ -1,14 +1,34 @@
 .site-header {
-    background: #f5f2f0;
     padding-bottom: 1rem;
     padding-top: 1rem;
     margin-bottom: 2rem;
 }
 
 .site-header header {
+    display: flex;
+
     h1 {
         font-size: 1.1rem;
         font-weight: 600;
         padding-top: 1rem;
+        text-transform: uppercase;
+        width: 300px;
+
+        a {
+            color: #000;
+        }
+    }
+
+    ul {
+        width: calc(100% - 300px);
+        list-style: none;
+        margin: 0;
+        padding: 1.3rem 0 0;
+        text-align: right;
+
+        li {
+            display: inline-block;
+            margin-left: 1.5rem;
+        }
     }
 }
