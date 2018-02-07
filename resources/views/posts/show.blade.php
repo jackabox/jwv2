@@ -1,13 +1,10 @@
 @component('layouts.app', [
-    'title' => $post->title
+    'title'     => $post->title,
+    'backlink'  => true
 ])
 
     <div class="container inner-container">
-        <p style="font-size: 1rem"><a href="{{ url('posts') }}" class="blog__back">&laquo; Back To Blog</a></p>
-
         <header class="blog__header">
-            <!-- <h1>{{ $post->title }}</h1> -->
-
             @if($post->subtitle)
                 <h2 class="subtitle">{{ $post->subtitle }}</h2>
             @endif
