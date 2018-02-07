@@ -5,8 +5,11 @@
         'core/variables',
         'core/placeholders';
 
-@import 'components/buttons';
+@import 'components/buttons',
+        'components/pagination';
 
 @import 'layout/typography',
         'layout/grid',
         'layout/header';
+
+@import 'posts';

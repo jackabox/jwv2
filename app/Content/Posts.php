@@ -59,6 +59,7 @@ class Posts extends Provider
                 return (object) [
                     'path' => $path,
                     'date' => $date,
+                    'created' => $date->format('F d, Y'),
                     'slug' => $slug,
                     'url' => route('posts.show', [$date->format('Y'), $slug]),
                     'title' => $document->title,

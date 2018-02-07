@@ -12,9 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    // return view('welcome');
+    return redirect('/posts');
 });
 
 
 Route::get('/posts', 'PostsController@index')->name('posts.index');
 Route::get('/posts/{year}/{slug}', 'PostsController@show')->name('posts.show')->where('slug', '(.*)');
+Route::get('/posts/page/{page}', 'PostsController@page');

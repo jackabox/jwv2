@@ -305,6 +305,18 @@ pre[class*="language-"] {
   cursor: pointer;
 }
 
+.pagination {
+  margin-top: 2rem;
+}
+
+.pagination__older,
+.pagination__newer {
+  padding: .3em .6em;
+  border-radius: 3px;
+  background: #D1947B;
+  color: #ffffff;
+}
+
 h1,
 h2,
 h3,
@@ -455,5 +467,34 @@ img {
   font-size: 1.1rem;
   font-weight: 600;
   padding-top: 1rem;
+}
+
+.post {
+  margin-bottom: 1rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #f5f2f0;
+}
+
+.post:last-of-type {
+  border-bottom: 0;
+}
+
+.post__date {
+  margin-bottom: -2rem;
+  margin-top: 3rem;
+}
+
+.post h2 a {
+  color: #121212;
+}
+
+.post__tag {
+  border-radius: 5px;
+  padding: .3em .6em;
+  font-size: .7em;
+  background: #f5f2f0;
+  opacity: 0.8;
+  margin-right: .4rem;
+  text-transform: uppercase;
 }
 

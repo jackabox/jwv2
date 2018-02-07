@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>http://jackwhiting.test/</loc>
+    
+    
+        <lastmod>2018-02-07T23:22:27+00:00</lastmod>
+    
+        <changefreq>daily</changefreq>
+    
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://jackwhiting.test/posts</loc>
+    
+    
+        <lastmod>2018-02-07T23:22:27+00:00</lastmod>
+    
+        <changefreq>daily</changefreq>
+    
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://jackwhiting.test/posts/2016/setting-up-and-using-yarn</loc>
+    
+    
+        <lastmod>2018-02-07T23:22:27+00:00</lastmod>
+    
+        <changefreq>daily</changefreq>
+    
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://jackwhiting.test/posts/2016/university-isnt-everything</loc>
+    
+    
+        <lastmod>2018-02-07T23:22:27+00:00</lastmod>
+    
+        <changefreq>daily</changefreq>
+    
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://jackwhiting.test/posts/2016/visual-studio</loc>
+    
+    
+        <lastmod>2018-02-07T23:22:27+00:00</lastmod>
+    
+        <changefreq>daily</changefreq>
+    
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://jackwhiting.test/posts/2017/beautiful-organised-results-in-phpunit</loc>
+    
+    
+        <lastmod>2018-02-07T23:22:27+00:00</lastmod>
+    
+        <changefreq>daily</changefreq>
+    
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://jackwhiting.test/posts/2017/chrome-forces-dev-to-https</loc>
+    
+    
+        <lastmod>2018-02-07T23:22:27+00:00</lastmod>
+    
+        <changefreq>daily</changefreq>
+    
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://jackwhiting.test/posts/2017/how-i-build-wp-plugins-framework</loc>
+    
+    
+        <lastmod>2018-02-07T23:22:27+00:00</lastmod>
+    
+        <changefreq>daily</changefreq>
+    
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://jackwhiting.test/posts/2017/introduction-to-wordpress-plugin-development</loc>
+    
+    
+        <lastmod>2018-02-07T23:22:27+00:00</lastmod>
+    
+        <changefreq>daily</changefreq>
+    
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://jackwhiting.test/posts/2017/moving-to-figma</loc>
+    
+    
+        <lastmod>2018-02-07T23:22:27+00:00</lastmod>
+    
+        <changefreq>daily</changefreq>
+    
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://jackwhiting.test/posts/2017/picking-laravel-back-up</loc>
+    
+    
+        <lastmod>2018-02-07T23:22:27+00:00</lastmod>
+    
+        <changefreq>daily</changefreq>
+    
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://jackwhiting.test/posts/2018/setting-up-wsl-with-a-php-laravel-stack</loc>
+    
+    
+        <lastmod>2018-02-07T23:22:27+00:00</lastmod>
+    
+        <changefreq>daily</changefreq>
+    
+        <priority>0.8</priority>
+    </url>
+</urlset>
