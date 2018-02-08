@@ -32,7 +32,7 @@ class Posts extends Provider
 
     public function feed()
     {
-        // return $this->cache('posts.feed', function () {
+        return $this->cache('posts.feed', function () {
             return $this->all()->map(function ($post) {
                 return [
                     'id'        => $post->url,
@@ -43,7 +43,7 @@ class Posts extends Provider
                     'author'    => 'Jack Whiting',
                 ];
             });
-        // });
+        });
     }
 
     private function gather()
