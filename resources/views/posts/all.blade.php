@@ -2,41 +2,43 @@
     'title' => 'Posts'
 ])
 
-    <div class="container">
-        <h1>Posts</h1>
+    <div class="container inner-container">
+        @foreach ($posts as $post)
+            <div class="post">
+                <p class="post__date">{{ $post->created }}</p>
 
-        @foreach ($paginator as $post)
-            <h2>
-                <a href="{{ $post->url }}">{{ $post->title }}</a>
-            </h2>
+                <h2>
+                    <a href="{{ $post->url }}">{{ $post->title }}</a>
+                </h2>
 
-            {!! $post->summary !!}
+                <p>{!! $post->summary !!} <a href="{{ $post->url }}">Read More</a></p>
 
-            @if ($post->tags)
-                <p>
-                @foreach ($post->tags as $tag)
-                    <span style="border-radius: 3px; padding: 3px 8px; font-size: 14px; background: #f5f2f0; opacity: 0.8; margin-right: 5px">{{ $tag }}</span>
-                @endforeach
-                </p>
-            @endif
+                @if ($post->tags)
+                    <p>
+                    @foreach ($post->tags as $tag)
+                        <span class="post__tag">{{ $tag }}</span>
+                    @endforeach
+                    </p>
+                @endif
+            </div>
         @endforeach
 
-        @if ($paginator->hasPages())
-            <section class="blog__paginator">
-                @if (!$paginator->onFirstPage())
+        @if ($posts->hasPages())
+            <section class="pagination">
+                @if (!$posts->onFirstPage())
                     @php
-                        $nextPageUrl = $paginator->currentPage() === 2 ?
+                        $nextPageUrl = $posts->currentPage() === 2 ?
                             url('posts') :
-                            url('posts/page/'.($paginator->currentPage() - 1));
+                            url('posts/page/'.($posts->currentPage() - 1));
                     @endphp
-                    <a href="{{ $nextPageUrl }}" rel="prev" class="blog__paginator__newer">
+                    <a href="{{ $nextPageUrl }}" rel="prev" class="pagination__newer">
                         Newer
                     </a>
                 @endif
                 
-                @if ($paginator->hasMorePages())
-                    @php($previousPageUrl = url('posts/page/'.($paginator->currentPage() + 1)))
-                    <a href="{{ $previousPageUrl }}" rel="next" class="blog__paginator__older">
+                @if ($posts->hasMorePages())
+                    @php($previousPageUrl = url('posts/page/'.($posts->currentPage() + 1)))
+                    <a href="{{ $previousPageUrl }}" rel="next" class="pagination__older">
                         Older
                     </a>
                 @endif

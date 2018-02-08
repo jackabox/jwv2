@@ -1,20 +1,19 @@
 @component('layouts.app', [
-    'title' => $post->title
+    'title'     => $post->title,
+    'created'   => $post->created
 ])
 
-    <div class="container">
-        <p style="font-size: 1rem"><a href="{{ url('posts') }}" class="blog__back">&laquo; All Posts</a></p>
-
-        <header class="blog__header">
-            <h1>{{ $post->title }}</h1>
-
-            @if($post->subtitle)
-                <h2 class="subtitle">{{ $post->subtitle }}</h2>
-            @endif
-        </header>
-
+    <div class="container inner-container">
         <article class="blog__article">
             {!! $post->content !!}
         </article>
+        
+        @if ($post->tags)
+            <p>
+            @foreach ($post->tags as $tag)
+                <span class="post__tag">{{ $tag }}</span>
+            @endforeach
+            </p>
+        @endif
     </div>
 @endcomponent

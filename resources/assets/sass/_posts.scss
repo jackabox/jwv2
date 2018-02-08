@@ -1,0 +1,28 @@
+.post {
+    margin-bottom: 1rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #f5f2f0;
+
+    &:last-of-type {
+        border-bottom: 0;
+    }
+}
+
+.post__date {
+    margin-bottom: -2rem;
+    margin-top: 3rem;
+}
+
+.post h2 a {
+    color: color('header');
+}
+
+.post__tag {
+    border-radius: 5px; 
+    padding: .3em .6em; 
+    font-size: .7em; 
+    background: #f5f2f0;
+    opacity: 0.8; 
+    margin-right: .4rem;
+    text-transform: uppercase;
+}

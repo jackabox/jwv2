@@ -1,0 +1,11 @@
+.pagination {
+    margin-top: 2rem;
+}
+
+.pagination__older,
+.pagination__newer {
+    padding: .3em .6em;
+    border-radius: 3px;
+    background: color('link');
+    color: color('white');
+}

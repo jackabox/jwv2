@@ -9,7 +9,14 @@ class PostsController extends Controller
     public function index(Posts $posts)
     {
         return view('posts.all', [
-            'paginator' => $posts->paginate(20),
+            'posts' => $posts->paginate(5),
+        ]);
+    }
+
+    public function page($page, Posts $posts)
+    {
+        return view('posts.index', [
+            'posts' => $posts->paginate(5, 'page', $page),
         ]);
     }
 
