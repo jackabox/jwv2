@@ -316,6 +316,8 @@ body {
 .pagination__newer {
   padding: .3em .6em;
   border-radius: 3px;
+  border: 0;
+  background: #555;
   color: #ffffff;
 }
 
