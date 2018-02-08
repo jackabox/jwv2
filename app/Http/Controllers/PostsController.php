@@ -9,14 +9,14 @@ class PostsController extends Controller
     public function index(Posts $posts)
     {
         return view('posts.all', [
-            'posts' => $posts->paginate(5),
+            'posts' => $posts->paginate(10),
         ]);
     }
 
     public function page($page, Posts $posts)
     {
         return view('posts.index', [
-            'posts' => $posts->paginate(5, 'page', $page),
+            'posts' => $posts->paginate(10, 'page', $page),
         ]);
     }
 
