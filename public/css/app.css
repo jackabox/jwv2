@@ -308,6 +308,17 @@ body {
   cursor: pointer;
 }
 
+.pagination {
+  margin-top: 2rem;
+}
+
+.pagination__older,
+.pagination__newer {
+  padding: .3em .6em;
+  border-radius: 3px;
+  color: #ffffff;
+}
+
 h1,
 h2,
 h3,
@@ -331,11 +342,16 @@ h3 {
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+  padding-top: 1.5rem;
 }
 
 p,
@@ -472,5 +488,30 @@ img {
 .site-header header ul li {
   display: inline-block;
   margin-left: 1.5rem;
+}
+
+.post {
+  margin-bottom: 1rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #f5f2f0;
+}
+
+.post:last-of-type {
+  border-bottom: 0;
+}
+
+.post__date {
+  margin-bottom: -2rem;
+  margin-top: 3rem;
+}
+
+.post__tag {
+  border-radius: 5px;
+  padding: .3em .6em;
+  font-size: .7em;
+  background: #f5f2f0;
+  opacity: 0.8;
+  margin-right: .4rem;
+  text-transform: uppercase;
 }
 
