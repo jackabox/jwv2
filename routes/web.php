@@ -12,8 +12,8 @@
 */
 
 Route::get('/', function () {
-    // return view('welcome');
-    return redirect('/posts');
+    return view('welcome');
+    // return redirect('/posts');
 });
 
 
