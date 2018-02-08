@@ -11,7 +11,11 @@
                     <a href="{{ $post->url }}">{{ $post->title }}</a>
                 </h2>
 
-                <p>{!! $post->summary !!} <a href="{{ $post->url }}">Read More</a></p>
+                <br>
+                
+                {!! $post->summary !!} 
+
+                <p><a href="{{ $post->url }}">Read More</a></p>
 
                 @if ($post->tags)
                     <p>

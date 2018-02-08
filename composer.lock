@@ -3260,16 +3260,16 @@
         },
         {
             "name": "spatie/image",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/image.git",
-                "reference": "2442fa534a3dacd604727dd062b5cf5ade29285a"
+                "reference": "9ac824e02ae9ebcb6a74160d6dd9ab73a42f0e4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/image/zipball/2442fa534a3dacd604727dd062b5cf5ade29285a",
-                "reference": "2442fa534a3dacd604727dd062b5cf5ade29285a",
+                "url": "https://api.github.com/repos/spatie/image/zipball/9ac824e02ae9ebcb6a74160d6dd9ab73a42f0e4f",
+                "reference": "9ac824e02ae9ebcb6a74160d6dd9ab73a42f0e4f",
                 "shasum": ""
             },
             "require": {
@@ -3277,10 +3277,10 @@
                 "php": "^7.0",
                 "spatie/image-optimizer": "^1.0",
                 "spatie/temporary-directory": "^1.0.0",
-                "symfony/process": "^3.0"
+                "symfony/process": "^3.0|^4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6.0",
+                "phpunit/phpunit": "^6.0|^7.0",
                 "symfony/var-dumper": "^3.2"
             },
             "type": "library",
@@ -3307,30 +3307,30 @@
                 "image",
                 "spatie"
             ],
-            "time": "2017-12-05T13:50:15+00:00"
+            "time": "2018-02-08T09:09:05+00:00"
         },
         {
             "name": "spatie/image-optimizer",
-            "version": "1.0.9",
+            "version": "1.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/image-optimizer.git",
-                "reference": "07b26303dbd85ede0896314fffad48bece094e8e"
+                "reference": "12eacb85a70158f64d60f39d32a2a86d84ff6b89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/image-optimizer/zipball/07b26303dbd85ede0896314fffad48bece094e8e",
-                "reference": "07b26303dbd85ede0896314fffad48bece094e8e",
+                "url": "https://api.github.com/repos/spatie/image-optimizer/zipball/12eacb85a70158f64d60f39d32a2a86d84ff6b89",
+                "reference": "12eacb85a70158f64d60f39d32a2a86d84ff6b89",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.0",
                 "psr/log": "^1.0",
-                "symfony/process": "^2.8|^3.0"
+                "symfony/process": "^2.8|^3.0|^4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6.2",
-                "symfony/var-dumper": "^3.0"
+                "phpunit/phpunit": "^6.2|^7.0",
+                "symfony/var-dumper": "^3.0|^4.0"
             },
             "type": "library",
             "autoload": {
@@ -3356,36 +3356,35 @@
                 "image-optimizer",
                 "spatie"
             ],
-            "time": "2017-11-03T09:47:05+00:00"
+            "time": "2018-02-08T14:45:11+00:00"
         },
         {
             "name": "spatie/laravel-collection-macros",
-            "version": "3.7.0",
+            "version": "3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-collection-macros.git",
-                "reference": "d89562cdec3fb530437e9d6a11a9adcec6a92e22"
+                "reference": "688bed54d5c50a69663fc56d9cfd89ac48c341e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-collection-macros/zipball/d89562cdec3fb530437e9d6a11a9adcec6a92e22",
-                "reference": "d89562cdec3fb530437e9d6a11a9adcec6a92e22",
+                "url": "https://api.github.com/repos/spatie/laravel-collection-macros/zipball/688bed54d5c50a69663fc56d9cfd89ac48c341e5",
+                "reference": "688bed54d5c50a69663fc56d9cfd89ac48c341e5",
                 "shasum": ""
             },
             "require": {
-                "illuminate/pagination": "~5.5.0",
-                "illuminate/support": "~5.5.0",
-                "illuminate/validation": "~5.5.0",
-                "illuminate/view": "~5.5.0",
+                "illuminate/pagination": "~5.5.0|~5.6.0",
+                "illuminate/support": "~5.5.0|~5.6.0",
+                "illuminate/validation": "~5.5.0|~5.6.0",
+                "illuminate/view": "~5.5.0|~5.6.0",
                 "php": "^7.0"
             },
             "require-dev": {
                 "amphp/parallel": "^0.2.0",
                 "amphp/parallel-functions": "^0.1.2",
                 "mockery/mockery": "^1.0",
-                "orchestra/database": "~3.5.0",
-                "orchestra/testbench": "~3.5.0",
-                "phpunit/phpunit": "^6.2",
+                "orchestra/testbench": "~3.5.0|~3.6.0",
+                "phpunit/phpunit": "^6.0|^7.0",
                 "symfony/stopwatch": "^3.4|^4.0"
             },
             "suggest": {
@@ -3428,7 +3427,7 @@
                 "laravel-collection-macros",
                 "spatie"
             ],
-            "time": "2018-01-18T22:58:30+00:00"
+            "time": "2018-02-08T09:53:00+00:00"
         },
         {
             "name": "spatie/laravel-sitemap",

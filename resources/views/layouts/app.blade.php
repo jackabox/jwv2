@@ -12,11 +12,6 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <script async src="{{ asset('js/app.js') }}"></script>
-
-    <style>
-        body, * {
-        }
-    </style>
 </head>
 <body>
     @include('layouts.partials.header')

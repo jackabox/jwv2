@@ -505,6 +505,10 @@ img {
   margin-top: 3rem;
 }
 
+.post h2 {
+  margin-top: 1rem;
+}
+
 .post__tag {
   border-radius: 5px;
   padding: .3em .6em;
