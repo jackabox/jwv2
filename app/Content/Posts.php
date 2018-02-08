@@ -16,9 +16,9 @@ class Posts extends Provider
 
     public function paginate($perPage = 15, $pageName = 'page', $page = null)
     {
-        // return $this->cache('posts.paginate.'.request('page', 1), function () use ($perPage, $pageName, $page) {
+        return $this->cache('posts.paginate.'.request('page', 1), function () use ($perPage, $pageName, $page) {
             return $this->all()->simplePaginate($perPage, $pageName, $page);
-        // });
+        });
     }
 
     public function find($year, $slug)
