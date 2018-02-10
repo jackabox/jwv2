@@ -49,11 +49,11 @@ class Posts extends Provider
     private function gather()
     {
         $posts = $this->disk->files('posts');
-//
-//        if (App::environment('local')) {
-//            $drafts = $this->disk->files('drafts');
-//            $posts = array_merge($posts, $drafts);
-//        }
+
+        if (App::environment('local')) {
+            $drafts = $this->disk->files('drafts');
+            $posts = array_merge($posts, $drafts);
+        }
 
         return collect($posts)
             ->filter(function ($path) {
