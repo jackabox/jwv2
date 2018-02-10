@@ -12,6 +12,7 @@
         "laravel/tinker": "~1.0",
         "league/commonmark": "^0.17.0",
         "spatie/laravel-collection-macros": "^3.8",
+        "spatie/laravel-feed": "^2.0",
         "spatie/laravel-sitemap": "^4.0",
         "spatie/yaml-front-matter": "^2.0"
     },
