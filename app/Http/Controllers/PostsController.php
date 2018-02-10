@@ -15,7 +15,7 @@ class PostsController extends Controller
 
     public function page($page, Posts $posts)
     {
-        return view('posts.index', [
+        return view('posts.all', [
             'posts' => $posts->paginate(10, 'page', $page),
         ]);
     }

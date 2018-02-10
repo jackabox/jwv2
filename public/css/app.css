@@ -280,15 +280,15 @@ pre[class*="language-"] {
   cursor: help;
 }
 
-body {
-  font-family: 'acumin-pro', serif;
-  color: color("font");
-}
-
 .container {
   width: 100%;
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 768px;
+}
+
+body {
+  font-family: "acumin-pro", "Arial", "Lucida Grande", "sans-serif";
+  color: #555;
 }
 
 .button {
@@ -326,7 +326,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Roboto", "Arial", "Lucida Grande", "sans-serif";
+  font-family: "acumin-pro", "Arial", "Lucida Grande", "sans-serif";
   margin: 0;
 }
 
@@ -509,6 +509,7 @@ img {
 
 .post h2 {
   margin-top: 1rem;
+  line-height: 2.2rem;
 }
 
 .post__tag {

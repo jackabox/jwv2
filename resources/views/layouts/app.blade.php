@@ -9,6 +9,7 @@
 
     <link rel="preconnect" href="https://use.typekit.net/">
     <link rel="stylesheet" href="https://use.typekit.net/wfq3itw.css">
+
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <script async src="{{ asset('js/app.js') }}"></script>

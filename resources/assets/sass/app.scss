@@ -1,10 +1,10 @@
 @import 'vendor/reset',
         'vendor/prism';
 
-@import 'core/core',
-        'core/functions',
+@import 'core/functions',
         'core/variables',
-        'core/placeholders';
+        'core/placeholders',
+        'core/core';
 
 @import 'components/buttons',
         'components/pagination';
