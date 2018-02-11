@@ -1,15 +1,22 @@
-.split-content {
-  display: flex;
-  justify-content: space-between;
-}
-
 .split__left {
-  width: 65%;
+  margin-bottom: 2rem;
 }
 
-.split__right {
-  width: 30%;
-  img {
-    max-width: 100%;
+@media (min-width: 600px) {
+  .split-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .split__left {
+    width: 65%;
+    margin-bottom: 0;
+  }
+
+  .split__right {
+    width: 30%;
+    img {
+      max-width: 100%;
+    }
   }
 }
