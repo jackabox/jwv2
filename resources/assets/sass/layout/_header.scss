@@ -28,7 +28,17 @@
 
         li {
             display: inline-block;
-            margin-left: 1.5rem;
+            margin-left: 2rem;
+        }
+
+        a {
+            border-bottom: 0;
+            color: color('link-element');
+        }
+
+        a:hover,
+        a:focus {
+            color: color('font');
         }
     }
 }

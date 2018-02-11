@@ -13,11 +13,7 @@
 
 Route::feeds();
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-
+Route::get('/', 'HomeController@index');
 Route::get('/posts', 'PostsController@index')->name('posts.index');
 Route::get('/posts/page/{page}', 'PostsController@page');
 Route::get('/posts/{year}/{slug}', 'PostsController@show')->name('posts.show')->where('slug', '(.*)');

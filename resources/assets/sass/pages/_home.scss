@@ -1,0 +1,15 @@
+.split-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.split__left {
+  width: 65%;
+}
+
+.split__right {
+  width: 30%;
+  img {
+    max-width: 100%;
+  }
+}

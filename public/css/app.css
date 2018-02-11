@@ -489,7 +489,25 @@ img {
 
 .site-header header ul li {
   display: inline-block;
-  margin-left: 1.5rem;
+  margin-left: 2rem;
+}
+
+.site-header header ul a {
+  border-bottom: 0;
+  color: #9b9b9b;
+}
+
+.site-header header ul a:hover,
+.site-header header ul a:focus {
+  color: #555;
+}
+
+.site-footer {
+  margin-top: 5rem;
+}
+
+.site-footer p {
+  font-size: 0.8rem;
 }
 
 .post {
@@ -520,5 +538,26 @@ img {
   opacity: 0.8;
   margin-right: .4rem;
   text-transform: uppercase;
+}
+
+.split-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.split__left {
+  width: 65%;
+}
+
+.split__right {
+  width: 30%;
+}
+
+.split__right img {
+  max-width: 100%;
 }
 

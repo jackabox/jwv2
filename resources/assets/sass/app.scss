@@ -11,6 +11,10 @@
 
 @import 'layout/typography',
         'layout/grid',
-        'layout/header';
+        'layout/header',
+        'layout/footer';
 
-@import 'posts';
+@import 'pages/posts',
+        'pages/home';
+
+

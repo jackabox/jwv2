@@ -5,7 +5,7 @@
 
             <ul>
                 <li><a href="{{ url('posts') }}">Posts</a></li>
-                <li><a href="mailto:hi@jackwhiting.co.uk">hi@jackwhiting.co.uk</a></li>
+                <li><a rel="nofollow" href="mailto:hi@jackwhiting.co.uk">hi@jackwhiting.co.uk</a></li>
             </ul>
         </header>
         
