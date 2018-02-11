@@ -35,7 +35,24 @@ return [
         '/moving-to-figma' => '/posts/2017/moving-to-figma',
         '/setting-up-and-using-yarn' => '/posts/2016/setting-up-and-using-yarn',
         '/visual-studio-code-and-five-extensions' => '/posts/2016/using-vs-code-and-recommended-extensions',
-        '/university-isnt-everything-part-2' => '/posts/2016/university-isnt-everything-part-2'
+        '/university-isnt-everything-part-2' => '/posts/2016/university-isnt-everything-part-2',
+        // OLD SITE
+        '/blog/toggle-a-search-box-with-jquery' => '/posts',
+        '/2012/clean-writer-pro-review' => '/posts',
+        '/gridark-demo' => '/posts',
+        '/tag/test' => '/posts',
+        '/blog/odyssey-update' => '/posts',
+        '/blog/2011/08' => '/posts',
+        '/blog/gridark' => '/posts',
+        '/2012/02/02/behind-the-design' => '/posts',
+        '/blog/bon-remake' => '/posts',
+        '/blog/2011/04/28/jwportfolio2/design2' => '/posts',
+        '/freebies/gridark/feed' => '/posts',
+        '/blog/fade-in-anchor-button-with-jQuery' => '/posts',
+        '/blog/for-me-2013-was' => '/posts',
+        '/gridark' => '/posts',
+        '/category/wordpress/feed' => '/feed',
+        '/freebies/musicdark-mini/feed' => '/feed',
     ],
 
 ];
