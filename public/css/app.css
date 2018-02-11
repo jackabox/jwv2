@@ -472,7 +472,7 @@ img {
   font-weight: 600;
   padding-top: 1rem;
   text-transform: uppercase;
-  width: 300px;
+  max-width: 300px;
 }
 
 .site-header header h1 a {
@@ -480,7 +480,7 @@ img {
 }
 
 .site-header header ul {
-  width: calc(100% - 300px);
+  width: 100%;
   list-style: none;
   margin: 0;
   padding: 1.3rem 0 0;
@@ -489,7 +489,13 @@ img {
 
 .site-header header ul li {
   display: inline-block;
-  margin-left: 2rem;
+  margin-left: 1rem;
+}
+
+@media (min-width: 550px) {
+  .site-header header ul li {
+    margin-left: 2rem;
+  }
 }
 
 .site-header header ul a {
@@ -521,7 +527,7 @@ img {
 }
 
 .post__date {
-  margin-bottom: -2rem;
+  margin-bottom: -2.5rem;
   margin-top: 3rem;
 }
 
