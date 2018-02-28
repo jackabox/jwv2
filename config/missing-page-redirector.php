@@ -27,7 +27,7 @@ return [
         '/about.html' => '/',
         '/work.html' => '',
         '/work' => '/',
-        '/works/{page}' => '/',
+        '/works/{pageé}' => '/',
         '/moving-on-from-adtrak-hello-fifteen' => '/posts/2018/goodbye-adtrak-hello-fifteen',
         '/setting-up-wsl-on-windows-10-for-php-laravel' => '/posts/2018/setting-up-a-windows-10-development-environment-with-wsl-php-laravel',
         '/beautiful-organised-results-in-phpunit' => '/posts/2017/beautiful-organised-results-in-phpunit',
